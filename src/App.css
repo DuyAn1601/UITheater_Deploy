@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100%;
+}
+
+/* .app-wrap::-webkit-scrollbar {
+  width: 6px;
+  background-color: #FFB7CE;
+}
+
+.app-wrap::-webkit-scrollbar-thumb {
+  background-color: bisque;
+  z-index: 1000;
+}
+
+.app-wrap::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+} */
+
+.app-wrap {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #1E1E2C;
+}
+
+.btn-gototop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  background-color: #FFB7CE;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn-gototop:hover {
+  background-color: #d89db0;
+}
+
+.btn-gototop-icon {
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.hot-movies {
+    margin-top: 90px;
+}
+
+.hot-movies-top {
+    display: flex;
+}
+
+.hot-movies-top-img {
+    font-size: 40px;
+    margin-right: 12px;
+}
+
+.hot-movies-top-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F5859D;
+}
+
+.hot-movies-bottom {
+    display: flex;
+    align-items: center;
+    margin: 0 -30px;
+    justify-content: space-between;
+}
+
+.hot-movies-bottom-movie {
+    height: 125px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.hot-movies-bottom-movie li:hover {
+    opacity: 70%;
+}
+
+.hot-movies-bottom-arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-movies-bottom-arrow-item {
+    color: #98D4DC;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 25%;
+}
+
+.hot-movies-bottom-arrow-item:hover {
+    color: #6f9ba0;
+}
